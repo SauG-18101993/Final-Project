@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Listings</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/booking.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar starts  -->
+    <section class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_12">
+            <div class="container-fluid nav_1">
+              <a class="navbar-brand" href="#"><img src="./Images/Car point 2.png" alt="Car point 2" class="img-fluid img_1"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="./aboutus.html">About</a>
+                  </li>
+                  <li class="nav-item text-white nav_2">
+                    <a class="nav-link active" href="./booking.html">Booking</a>
+                  </li>
+                  <li class="nav-item text-white nav_3">
+                    <a class="nav-link" href="./how it is work.html">How its work</a>
+                  </li>
+                  <li class="nav-item text-white nav_4">
+                    <a class="nav-link" href="./contactus.html">Contact</a>
+                  </li>
+                  <li class="nav-item text-white nav_4">
+                    <a class="nav-link" href="./login.html">Login</a>
+                  </li>
+                  <button class="btn_1 bg-warning rounded-2" href="./signup.html">Sign up</button>
+                  <!-- <img src="./Images/Image (1).png" alt="Image (1)" class="img-fluid img_2"> -->
+                  <img src="./Images/Notification.png" alt="Notification" class="img-fluid img_3">
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+        <!-- Navbar ends -->
+         <!-- Banner starts -->
+          <section class="car_banner">
+            <div class="banner position-relative">
+              <div class="banner-text">
+                  <h1 class="font-poppins fn_1 text-dark">Your Dream Car</h1>
+                  <p class="para_1 font-poppins text-warning">Waiting Just For You</p>
+              </div>
+          </div>
+          </section>
+          <!-- Banner Ends -->
+           <!-- Search Section starts -->
+          <section class="search_section">
+            <div class="container-fluid">
+                    <div class="search">
+                      <figure>
+                        <img src="./Images/Search (2).png"  alt="Search (2)" class="img-fluid position-absolute search_0" alt="search">
+                      </figure>
+                    </div>
+                  </div>
+      </section>
+      <!-- Search Section Ends -->
+       <section class="car listings">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Filter Sidebar -->
+            <div class="col-lg-3 col-md-4 filter-sidebar">
+                <div class="filter-section">
+                    <h5>Filter</h5>
+                    <button class="btn btn-sm btn-outline-secondary mb-3">Clear All</button>
+                    
+                    <div class="filter-group">
+                        <h6>Kilometres Plan</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="140kms">
+                            <label class="form-check-label" for="140kms">140 Kms</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="280kms">
+                            <label class="form-check-label" for="280kms">280 Kms</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h6>Segment</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="suv">
+                            <label class="form-check-label" for="suv">SUV</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sedan">
+                            <label class="form-check-label" for="sedan">Sedan</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sedan">
+                            <label class="form-check-label" for="sedan">MUV</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sedan">
+                            <label class="form-check-label" for="sedan">Hatch Back</label>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <div class="filter-title">Price</div>
+                        <div class="price-range">
+                            <span>₹1000</span>
+                            <input type="range" class="form-control-range" id="priceRange" min="1000" max="5000">
+                            <span>₹5000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Car Listings -->
+            <div class="col-lg-9 col-md-8 car-listings">
+                <div class="row g-4">
+                    <!-- Car Card 1 -->
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hyundai SUV</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more car cards here -->
+
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maruti Suzuki Dzire</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more car cards here -->
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Range Rover</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more car cards here -->
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahindra Xylo</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more car cards here -->
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahindra Xuv 3x0</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nissan Datsun Go</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ford Focus</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tata Nexon</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-12">
+                        <div class="car-card">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="available-badge">Available</span>
+                                    <button class="btn btn-favorite"><i class="fas fa-heart"></i></button>
+                                </div>
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/7695/1651645683867/front-left-side-47.jpg" class="card-img-top" alt="Hyundai SUV">
+                                <div class="card-body">
+                                    <h5 class="card-title">Suzuki Ertiga</h5>
+                                    <div class="car-features">
+                                        <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                                        <span><i class="fas fa-cog"></i> Automatic</span>
+                                        <span><i class="fas fa-users"></i> 7 People</span>
+                                    </div>
+                                    <div class="car-info">
+                                        <span><i class="fas fa-shield-alt"></i> Insurance Included</span>
+                                        <span><i class="fas fa-road"></i> 250 Km/Day</span>
+                                    </div>
+                                    <div class="price-section">
+                                        <span class="price">₹4800/Day</span>
+                                        <button class="btn btn-primary">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Car listing pagination" class="mt-4">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Car listing Ends -->
+<!-- Form Section Starts -->
+<section class="form_section">
+    <div class="rect_3 position-absolute">
+      <img src="./Images/Rectangle 13 (4).png" alt="Rectangle 13 (4)" class="img-fluid">
+    </div>
+    <h7 class="heading_quest text-center font-poppins fs-1 position-relative">Questions? Get in Touch</h7>
+    <div class="form_main d-flex justify-content-between align-items-center">
+      <div class="left_form">
+      <form>
+        <input type="text" id="firstname" placeholder="Your Name*" class="name_1 position-relative">
+        <input type="email" id="myemail" placeholder="Your Email*" class="name_2 position-relative">
+        <input type="text" id="firstname" placeholder="Your Message*" class="name_3 position-relative">
+        <button class="btn_6 bg-warning position-relative rounded">Send A Message</button>
+      </form>
+    </div>
+    <div class="right_form">
+        <p class="font-poppins position-relative para_36">Download<img src="./Images/Car point 1.png"
+            alt="Car point 1" class="img-fluid img_67"><span class="spn_1">App for free</span></p>
+        <p class="font-poppins position-relative s_8">For easier, booking & easy deals</p>
+      </div>
+      <div class="black_buttons">
+        <img src="./Images/black 1.png" class="img-fluid img_568 position-relative" alt="black 1">
+      </div>
+      <div class="car_img_97">
+        <img src="./Images/all-car 1 (1).png" class="img-fluid position-relative img_231" alt="all-car 1">
+      </div>
+    </div>
+    <!-- <div class="right_form">
+      <p class="text-center font-poppins position-relative para_36">Download<img src="./Images/Car point 1 (3).png" alt="Car point 1" class="img-fluid img_1">App for free</p>
+      <p class="text-center font-poppins position-relative s_8">For easier, booking & easy deals</p>
+    </div>
+    <div class="black_buttons">
+      <img src="./Images/black 1 (3).png" class="img-fluid img_568 position-relative" alt="black 1 (3)">
+    </div>
+    <div class="car_img_97">
+      <img src="./Images/all-car 1 (4).png" class="img-fluid position-relative img_231" alt="all-car 1 (4)">
+    </div>
+    </div> -->
+  </section>
+  <!-- Form section ends  -->
+   <!-- footer section starts -->
+    <section class="footer f_1">
+      <footer class="footer f_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./Images/CarPoint-White Logo 2 (3).png" class="img-fluid img_2" alt="CarPoint-White Logo 2 (3)">
+                    <p class="para_91">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <div class="social-icons s_2">
+                        <a href="#"><i class="fab fa-facebook-f bg-warning"></i></a>
+                        <a href="#"><i class="fab fa-instagram bg-warning"></i></a>
+                        <a href="#"><i class="fab fa-twitter bg-warning"></i></a>
+                        <a href="#"><i class="fab fa-youtube bg-warning"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 f_8">
+                  <h5 class="heading-68">Company</h5>
+                  <ul class="list-unstyled li_9">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Booking</a></li>
+                      <li><a href="#">How Its Work</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-2 f_9">
+                  <h6 class="heading-78">Help</h6>
+                  <ul class="list-unstyled li_10">
+                      <li><a href="#">Customer Support</a></li>
+                      <li><a href="#">Terms & Condition</a></li>
+                      <li><a href="#">Project</a></li>
+                      <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4 sub_10">
+                  <h5>Subscribe To Newsletters</h5>
+                  <div class="subscribe">
+                      <input type="email" placeholder="Enter your email">
+                      <button type="button">Subscribe</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>          
+    </section>
+    <!-- Footer Section ends  -->
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/booking.js"></script>
+</body>
+</html>

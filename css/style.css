@@ -1,0 +1,760 @@
+/* navbar stars */
+.img_1{
+    width:216px;
+    height:216px;
+    margin-top:80px;
+    margin-left:-42px;
+}
+.nav_ul{
+    width:100%;
+    height:100px;
+    top:0;
+    left:0;
+    right:0;
+    z-index:300;
+}
+.navbar-nav{
+    margin-left: 490px;
+    margin-top: -26px;
+    color:white;
+}
+.navbar-nav a{
+    color:black;
+}
+.active{
+    color:#ffcc00!important;
+}
+/* navbar ends */
+/* banner starts */
+.btn-1 {
+    background-color: #FFAE00;
+    margin-left:100px;
+}
+.left_ban{
+    width:790px;
+    height:797px;
+    margin-top:-42px;
+}
+.left_ban{
+    padding-left:165px;
+    padding-top:800px;
+}
+.span-2{
+    color:#FFAE00;
+}
+.right_ban{
+    width:803px;
+    height:797px;
+    margin-top:80px;
+}
+.xxn{
+    left:800px;
+}
+.car_banner{
+    margin-top:42px;
+}
+.heading-1{
+    margin-top:-498px;
+}
+/* banner ends */
+/* search bar stars */
+.search_0{
+    bottom:-327px;
+    right:200px;
+    left:182px;
+    top:682px;
+}
+/* search bar ends */
+/* Faster checkout stars */
+:root {
+    --primary-color: #FF9F1C;
+    --text-color: #333;
+    --light-gray: #f8f9fa;
+    --border-radius: 12px;
+}
+/* Slider Container Styles */
+.travel-slider {
+    position: relative;
+    padding: 20px 40px;
+    background-color: var(--light-gray);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+.slider-container {
+    overflow: hidden;
+}
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 20px;
+}
+/* Travel Card Styles */
+.slide {
+    min-width: calc(33.333% - 14px);
+    flex: 0 0 auto;
+}
+.travel-card {
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    height: 150px; /* Fixed height for consistent row layout */
+}
+
+.travel-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-inner {
+    display: flex;
+    height: 100%;
+}
+
+.card-image {
+    width: 150px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+.route {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.route .fa-arrow-right {
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+.schedule {
+    color: #666;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* Price Section Styles */
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    background: white;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price .label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.price .amount {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.book-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.book-btn:hover {
+    background-color: #e88c0c;
+}
+
+/* Navigation Buttons */
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.nav-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.nav-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .slide {
+        min-width: calc(50% - 10px);
+    }
+    
+    .travel-card {
+        height: 140px;
+    }
+    
+    .card-image {
+        width: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .travel-slider {
+        padding: 15px 30px;
+    }
+    
+    .slide {
+        min-width: calc(100% - 0px);
+    }
+    
+    .travel-card {
+        height: 130px;
+    }
+    
+    .card-image {
+        width: 130px;
+    }
+}
+
+@media (max-width: 576px) {
+    .travel-slider {
+        padding: 10px 25px;
+    }
+    
+    .travel-card {
+        height: 120px;
+    }
+    
+    .card-image {
+        width: 120px;
+    }
+    
+    .card-content {
+        padding: 10px;
+    }
+    
+    .route {
+        font-size: 14px;
+    }
+    
+    .schedule {
+        font-size: 12px;
+    }
+    
+    .price-section {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 326px) {
+    .travel-slider {
+        padding: 10px 20px;
+    }
+    
+    .travel-card {
+        height: 110px;
+    }
+    
+    .card-image {
+        width: 110px;
+    }
+    
+    .card-content {
+        padding: 8px;
+    }
+    
+    .route {
+        font-size: 13px;
+        gap: 6px;
+    }
+    
+    .schedule {
+        font-size: 11px;
+    }
+    
+    .price .label {
+        font-size: 10px;
+    }
+    
+    .price .amount {
+        font-size: 13px;
+    }
+    
+    .book-btn {
+        padding: 4px 12px;
+        font-size: 12px;
+    }
+    
+    .price-section {
+        bottom: 8px;
+        left: 8px;
+        right: 8px;
+    }
+}
+/* Faster checkout ends */
+.rent_img{
+    width:552px;
+    height:428px;
+    margin-top:58px;
+}
+/* Faster checkout ends */
+/* Popular Catagories starts */
+.head-11{
+    margin-top:71px;
+}
+.
+/* choose your plan starts */
+.choose_21{
+    margin-top:65px;
+}
+.heading-12{
+    margin-top:75px;
+}
+.choose_1_text{
+    margin-top:-58px;
+    margin-left:82px;
+}
+.choose_2_text{
+    margin-top:-47px;
+    margin-left:82px;
+}
+.choose_3_text{
+    margin-top:-47px;
+    margin-left:82px;
+}
+/* choose your plan ends */
+/* Client Review Starts */
+.head_1{
+    margin-top:54px;
+    font-size:45px !important;
+    font-weight:600;
+}
+.cRwoc{
+    margin-top:58px;
+    margin-left:-331px;
+}
+.CRlower_right_1{
+    margin-left:965px;
+    margin-top:-193px;
+}
+.para_63{
+    left:20px;
+    top:16px;
+}
+.img_245{
+    left:343px;
+    top:-24px;
+}
+.para_53{
+    margin-left:-41px;
+    margin-top:128px;
+}
+.para_69{
+    margin-top:-30px;
+}
+.testimonial-section{
+    margin-top:-73px;
+}
+:root {
+    --primary-color: #FF9900;
+    --text-color: #333;
+    --card-bg: #fff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+.testimonial-section {
+    /* background-color: #f8f9fa; */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.testimonial-slider {
+    padding: 40px 0;
+    overflow: hidden;
+}
+.testimonial-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.testimonial-item {
+    min-width: 100%;
+    padding: 0 15px;
+}
+.testimonial-content {
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client-image {
+    position: absolute;
+    top: -51px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+.client-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.testimonial-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 120px 30px 30px;
+    margin-top: 48px;
+    text-align: center;
+    box-shadow: 0 5px 20px var(--shadow-color);
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.CRlower_right{
+    margin-left:226px;
+}
+.CRlower_left{
+    margin-left:100px;
+    padding-left:28px;
+
+}
+.testimonial-text {
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.client-name {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.rating .fas.fa-star {
+    color: var(--primary-color);
+}
+
+.review-count {
+    color: #666;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+/* Navigation Buttons */
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 3;
+}
+
+.nav-btn:hover {
+    color: #e88c0c;
+}
+
+.nav-btn.prev {
+    left: -20px;
+}
+
+.nav-btn.next {
+    right: -20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .testimonial-content {
+        padding-top: 80px;
+    }
+
+    .client-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    .testimonial-card {
+        padding: 100px 20px 20px;
+    }
+
+    .nav-btn {
+        font-size: 1.5rem;
+    }
+
+    .nav-btn.prev {
+        left: -10px;
+    }
+
+    .nav-btn.next {
+        right: -10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .testimonial-content {
+        padding-top: 60px;
+    }
+
+    .client-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .testimonial-card {
+        padding: 80px 15px 15px;
+    }
+
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+
+    .client-name {
+        font-size: 1.1rem;
+    }
+
+    .review-count {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 326px) {
+    .client-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial-card {
+        padding: 70px 10px 10px;
+    }
+
+    .testimonial-text {
+        font-size: 0.85rem;
+    }
+
+    .client-name {
+        font-size: 1rem;
+    }
+}
+.cR_Rakesh{
+    margin-bottom:20px;
+}
+
+/* client Review Ends */
+/* counter section starts */
+.counter-section {
+    background-color: #ffa500;
+    padding: 60px 0;
+}
+.counter-box {
+    text-align: center;
+}
+.counter-number {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.counter-text {
+    font-size: 24px;
+    color: #000;
+}
+/* Counter section ends */
+/* Form section starts */
+.rect_3{
+    margin-top:28px;
+    padding-left:320px;
+}
+.heading_quest{
+    left:550px;
+    right:100px;
+    top:77px;
+}
+.name_1{
+    left:426px;
+    top:109px;
+    width:268px;
+}
+.name_2{
+    left:154px;
+    top:173px;
+    width:268px;
+}
+.name_3{
+    width:268px;
+    height:94px;
+    left:426px;
+    top:209px;
+}
+.para_36{
+    padding-left:-5px;
+    top:116px;
+    font-size:24px;
+}
+.spn_1{
+    padding-top:5px;
+    padding-left:5px;
+    font-size:21px!important;
+}
+.img_67{
+    height:71px;
+}
+.s_8{
+    padding-left:-31px;
+    top:117px;
+    left:1px;
+    font-size:16px;
+}
+.img_568{
+    margin-left:-10px;
+    left:-228px;
+    top:248px;
+}
+.img_231{
+    width:691px;
+    height:138px;
+    left:-614px;
+    top:410px;
+}
+.btn_6{
+    left:154px;
+    top:306px;
+}
+/* form section ends */
+/* footer section starts */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin-right: 15px;
+    color: #fff;
+}
+.footer .subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #000;
+}
+.img_2{
+    width:308px;
+    height:313px;
+    margin-top:319px;
+    left:100px;
+    margin-left:-30px;
+}
+.para_91{
+    margin-top:-87px;
+    margin-left:0px;
+}
+.heading-68{
+    margin-top:466px;
+    margin-left:50px;
+}
+.li_9{
+    margin-top:19px;
+    margin-left:50px;
+}
+.heading-78{
+    margin-top:470px;
+    margin-left:50px;
+}
+.li_10{
+    margin-top:19px;
+    margin-left:50px;
+}
+.sub_10{
+    margin-top:-206px;
+    margin-left:916px;
+}
+.f_2{
+    margin-top:-19px;
+}
+.f_3{
+    margin-top:-19px;
+}
+
+/* Footer ends */
