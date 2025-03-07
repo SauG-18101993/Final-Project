@@ -158,11 +158,14 @@
     margin-top:-193px;
 }
 .para_63{
-    left:20px;
+    left:-31px;
     top:16px;
 }
+.r_1{
+    margin-left:-43px;
+}
 .img_245{
-    left:343px;
+    left:305px;
     top:-24px;
 }
 .para_53{
@@ -170,7 +173,8 @@
     margin-top:108px;
 }
 .para_69{
-    margin-top:-30px;
+    margin-top:54px;
+    margin-left:-42px;
 }
 .testimonial-section{
     margin-top:-70px;
@@ -387,7 +391,7 @@
 /* Form Section starts */
 .rect_3{
     margin-top:79px;
-    padding-left:320px;
+    padding-left:342px;
 }
 .heading_quest{
     left:550px;
@@ -483,10 +487,10 @@
     background-color: #ffcc00;
     color: #000;
 }
-.img_2{
+.img_car1{
     width:308px;
     height:308px;
-    margin-top:297px;
+    margin-top:286px;
     margin-left:-31px;
 }
 .li_1{
