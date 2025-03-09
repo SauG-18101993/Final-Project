@@ -391,12 +391,15 @@
 /* Form Section starts */
 .rect_3{
     margin-top:79px;
-    padding-left:342px;
+    padding-left:329px;
 }
 .heading_quest{
     left:550px;
     right:100px;
-    top:157px;
+    top:140px;
+}
+.car_1{
+    height:112px;
 }
 .name_1{
     left:426px;
@@ -428,7 +431,7 @@
 }
 .img_568{
     margin-left:-6px;
-    left:-311px;
+    left:-282px;
     top:284px;
 }
 .img_231{
