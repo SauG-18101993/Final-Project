@@ -187,9 +187,12 @@ body {
     border: none;
     padding: 8px 20px;
     border-radius: 20px;
+    color:#000;
 }
 .btn-primary:hover {
     background-color: darken(var(--primary-color), 10%);
+    color:#000;
+    border-color: #000;
 } 
 /* Pagination Styling */
 .pagination {
