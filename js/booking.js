@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Filters updated');
         // You can implement actual filtering based on the selected checkboxes
     }
-
     // Handle booking buttons
     const bookButtons = document.querySelectorAll('.btn-primary');
     bookButtons.forEach(button => {
@@ -42,7 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add your booking logic here
         });
     });
-
     // Pagination functionality
     const paginationLinks = document.querySelectorAll('.pagination .page-link');
     const carCards = document.querySelectorAll('.car-card');

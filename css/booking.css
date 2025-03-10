@@ -125,9 +125,9 @@ body {
     transition: transform 0.3s ease;
 }
 
-.car-card .card:hover {
+/* .car-card .card:hover {
     transform: translateY(-5px);
-}
+} */
 
 .card-header {
     background: none;
@@ -188,17 +188,14 @@ body {
     padding: 8px 20px;
     border-radius: 20px;
 }
-
 .btn-primary:hover {
     background-color: darken(var(--primary-color), 10%);
-}
-
+} 
 /* Pagination Styling */
 .pagination {
     margin-top: 2rem;
     gap: 5px;
 }
-
 .pagination .page-link {
     color: var(--text-color);
     border: none;

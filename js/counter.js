@@ -55,32 +55,26 @@ $('button').click(function(){
             } else {
                 slidesToShow = 1;
             }
-    
             // Calculate slide width
-            slideWidth = sliderTrack.clientWidth / slidesToShow;
-            
+            slideWidth = sliderTrack.clientWidth / slidesToShow;           
             // Set width for each slide
             slides.forEach(slide => {
                 slide.style.minWidth = `${slideWidth}px`;
-            });
-    
+            });  
             // Update slider position
             updateSliderPosition();
             updateButtons();
         }
-    
         // Update slider position
         function updateSliderPosition() {
             const position = -currentIndex * slideWidth;
             sliderTrack.style.transform = `translateX(${position}px)`;
-        }
-    
+        }    
         // Update button states
         function updateButtons() {
             prevBtn.classList.toggle('disabled', currentIndex === 0);
             nextBtn.classList.toggle('disabled', currentIndex >= slides.length - slidesToShow);
         }
-    
         // Previous slide
         prevBtn.addEventListener('click', () => {
             if (currentIndex > 0) {
@@ -88,8 +82,7 @@ $('button').click(function(){
                 updateSliderPosition();
                 updateButtons();
             }
-        });
-    
+        });    
         // Next slide
         nextBtn.addEventListener('click', () => {
             if (currentIndex < slides.length - slidesToShow) {
@@ -160,12 +153,10 @@ $('button').click(function(){
                 currentIndex = 0; // Reset position on resize
                 initSlider();
             }, 250);
-        });
-    
+        });  
         // Initialize slider on load
         initSlider();
         startAutoPlay();
-    
         // Add keyboard navigation
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowLeft') {
@@ -174,12 +165,10 @@ $('button').click(function(){
                 nextBtn.click();
             }
         });
-    
         // Add smooth animation class after initial load
         setTimeout(() => {
             sliderTrack.style.transition = 'transform 0.5s ease';
-        }, 100);
-    
+        }, 100); 
         // Handle button animations
         [prevBtn, nextBtn].forEach(btn => {
             btn.addEventListener('mousedown', () => {
@@ -195,4 +184,5 @@ $('button').click(function(){
             });
         });
     });
+
     
