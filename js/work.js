@@ -32,6 +32,6 @@ $(document).ready(function() {
         offset: '75%'
     });
 });
-$('button').click(function(){
-         alert("Button clicked")
-     })
+// $('button').click(function(){
+//          alert("Button clicked")
+//      })

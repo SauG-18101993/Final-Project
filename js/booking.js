@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function(e) {
             e.preventDefault();
             const carTitle = this.closest('.card').querySelector('.card-title').textContent;
-            alert(`Booking process started for ${carTitle}`);
+            // alert(`Booking process started for ${carTitle}`);
             // Add your booking logic here
         });
     });

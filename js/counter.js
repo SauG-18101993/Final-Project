@@ -33,7 +33,7 @@ $(document).ready(function() {
     });
 });
 $('button').click(function(){
-         alert("Button clicked")
+        //  alert("Button clicked")
      })
      document.addEventListener('DOMContentLoaded', function() {
         const sliderTrack = document.querySelector('.slider-track');

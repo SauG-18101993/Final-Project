@@ -342,7 +342,8 @@ body {
 }
 .footer .social-icons a {
     margin-right: 15px;
-    color: #fff;
+    color: #FFAE00;
+    padding-right:10px;
 }
 .footer .subscribe input[type="email"] {
     padding: 10px;

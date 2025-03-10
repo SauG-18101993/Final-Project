@@ -16,10 +16,10 @@
     top:-232px;
 }
 .img_4{
-    width:842px;
+    width:1583px;
     height:632px;
-    left:-825px;
-    top:123px;
+    left:-478px;
+    top:230px;
 }
 .form_1{
     margin-left:-725px;
@@ -46,5 +46,12 @@
 }
 .frm_2 {
     width:42%;
+}
+
+.up_right { 
+    padding: 200px;
+}
+.s_2{
+    margin-left:304px;
 }
 /* Login up section ends */
