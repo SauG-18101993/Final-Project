@@ -445,7 +445,7 @@
 
 .client-image {
     position: absolute;
-    top: -51px;
+    top: -26px;
     left: 50%;
     transform: translateX(-50%);
     width: 200px;
@@ -464,7 +464,7 @@
     background: var(--card-bg);
     border-radius: 10px;
     padding: 120px 30px 30px;
-    margin-top: 48px;
+    margin-top: 76px;
     text-align: center;
     box-shadow: 0 5px 20px var(--shadow-color);
     width: 100%;
