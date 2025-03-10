@@ -19,7 +19,6 @@ $(document).ready(function() {
             });
         });
     }
-
     // Start counter when the section comes into view
     var waypoint = new Waypoint({
         element: document.querySelector('.counter-section'),
