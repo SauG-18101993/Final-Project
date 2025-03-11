@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./css/contactus.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar starts  -->
@@ -78,7 +79,10 @@
            <p class="px-2"><b>EM Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091</b></p><hr>
         </div>
         <div class="col-md-6">
-            <form class="contact-form">
+            <form class="contact-form" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
                     <input type="text" class="form-control" id="fullName" placeholder="Enter Full Name">
@@ -170,7 +174,8 @@
   </section>
   <!-- Get in touch ends -->
    <!-- form section starts  -->
-   <section class="form_section">
+   <section class="form_section" data-aos="fade-up"
+   data-aos-anchor-placement="bottom-center">
     <div class="rect_3 position-absolute">
       <img src="./Images/Rectangle 13 (4).png" alt="Rectangle 13 (4)" class="img-fluid">
     </div>
@@ -248,5 +253,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./js/contact us.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
