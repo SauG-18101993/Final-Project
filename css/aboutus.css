@@ -1,3 +1,6 @@
+body,html{
+    overflow-x: hidden;
+}
 /* Navbar starts */
 .img_1{
     width:216px;
