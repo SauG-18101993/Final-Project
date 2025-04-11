@@ -1,9 +1,16 @@
+/* Common classes */
 body,html{
     overflow-x: hidden;
 }
+.container{
+    max-width:1300px;
+    margin:0 auto;
+    padding:0 20px;
+    box-sizing:border-box;
+}
 /* navbar stars */
 .img_1{
-    width:216px;
+    max-width:216px;
     height:216px;
     margin-top:80px;
     margin-left:-42px;
@@ -17,7 +24,7 @@ body,html{
     z-index:300;
 }
 .navbar-nav{
-    margin-left: 490px;
+    margin-left: 380px;
     margin-top: -26px;
     color:white;
 }
@@ -27,11 +34,24 @@ body,html{
 .active{
     color:#ffcc00!important;
 }
+.nav_5{
+    margin-left: 81px;
+}
+.btn_12{
+    color:white;
+    width:82px;
+    height:36px;
+    border-radius:5px;
+}
 /* navbar ends */
 /* banner starts */
 .btn-1 {
     background-color: #FFAE00;
-    margin-left:100px;
+    margin-left:235px;
+    padding:13px 13px;
+    border-radius: 5px;
+    width:181px;
+    height: 54px;
 }
 .left_ban{
     width:790px;
@@ -39,7 +59,7 @@ body,html{
     margin-top:-42px;
 }
 .left_ban{
-    padding-left:165px;
+    margin-left:-215px;
     padding-top:800px;
 }
 .span-2{
@@ -49,15 +69,30 @@ body,html{
     width:803px;
     height:797px;
     margin-top:80px;
+    margin-left: -106px;
 }
 .xxn{
-    left:800px;
+    left:521px;
+    top:61px;
+    max-width:774px;
+    height:791px;
+}
+.x_1{
+    max-width:928px;
+    height:464px;
 }
 .car_banner{
     margin-top:42px;
 }
 .heading-1{
     margin-top:-498px;
+    margin-left:180px;
+}
+.para_g{
+    margin-left:180px;
+    font-size:19px;
+    line-height: auto;
+    letter-spacing:0%;
 }
 /* banner ends */
 /* search bar stars */
@@ -102,7 +137,7 @@ body,html{
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-    height: 150px; /* Fixed height for consistent row layout */
+    height: 150px; 
 }
 
 .travel-card:hover {
@@ -161,24 +196,20 @@ body,html{
     right: 15px;
     background: white;
 }
-
 .price {
     display: flex;
     flex-direction: column;
 }
-
 .price .label {
     font-size: 12px;
     color: #666;
     margin-bottom: 2px;
 }
-
 .price .amount {
     font-weight: 600;
     color: var(--text-color);
     font-size: 16px;
 }
-
 .book-btn {
     background-color: var(--primary-color);
     color: white;
@@ -189,7 +220,6 @@ body,html{
     transition: background-color 0.3s ease;
     font-size: 14px;
 }
-
 .book-btn:hover {
     background-color: #e88c0c;
 }
@@ -212,25 +242,20 @@ body,html{
     transition: all 0.3s ease;
     z-index: 10;
 }
-
 .nav-btn:hover {
     background: var(--primary-color);
     color: white;
 }
-
 .prev-btn {
     left: 10px;
     top:50%;
-    transform:translate(0%,-50%);
-    
+    transform:translate(0%,-50%);   
 }
-
 .next-btn {
     right: 10px;
     top:50%;
     transform:translate(0%,-50%);
 }
-
 .nav-btn.disabled {
     opacity: 0.5;
     cursor: not-allowed;
@@ -250,38 +275,30 @@ body,html{
         width: 140px;
     }
 }
-
 @media (max-width: 768px) {
     .travel-slider {
         padding: 15px 30px;
-    }
-    
+    }   
     .slide {
         min-width: calc(100% - 0px);
     }
-    
     .travel-card {
         height: 130px;
     }
-    
     .card-image {
         width: 130px;
     }
 }
-
 @media (max-width: 576px) {
     .travel-slider {
         padding: 10px 25px;
-    }
-    
+    }   
     .travel-card {
         height: 120px;
     }
-    
     .card-image {
         width: 120px;
     }
-    
     .card-content {
         padding: 10px;
     }
@@ -712,7 +729,8 @@ body,html{
 }
 .footer .social-icons a {
     margin-right: 20px;
-    
+    max-width:1600px;
+    height:1223px;
 }
 .social-icons a {
     color: #FFAE00;
