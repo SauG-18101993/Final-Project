@@ -393,6 +393,18 @@ body,html{
     margin-top:-47px;
     margin-left:82px;
 }
+.heading-13{
+    margin-left:150px;
+    margin-top:-26px;
+}
+.para_e{
+    margin-left:151px;
+    margin-top:21px;
+}
+.img_e, .img_f, .img_g{
+    margin-left:150px;
+    margin-top:33px;
+}
 /* choose your plan ends */
 /* Client Review Starts */
 .head_1{
@@ -430,6 +442,7 @@ body,html{
 }
 .testimonial-section{
     margin-top:-73px;
+    margin-left: 34px;
 }
 :root {
     --primary-color: #FF9900;
@@ -454,6 +467,7 @@ body,html{
 .testimonial-item {
     min-width: 100%;
     padding: 0 15px;
+    margin-left:50px;
 }
 .testimonial-content {
     position: relative;
@@ -488,8 +502,8 @@ body,html{
     text-align: center;
     box-shadow: 0 5px 20px var(--shadow-color);
     width: 100%;
-    max-width: 600px;
-    margin-left: auto;
+    max-width: 432px;
+    margin-left: -45px;
     margin-right: auto;
 }
 .CRlower_right{
@@ -632,6 +646,10 @@ body,html{
 }
 .cR_Rakesh{
     margin-bottom:20px;
+    margin-left: -52px;
+    margin-top: 69px;
+    max-width:402px;
+    height:267px;
 }
 
 /* client Review Ends */
