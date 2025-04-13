@@ -3,7 +3,7 @@ body,html{
 }
 /* Navbar starts */
 .img_1{
-    width:216px;
+    max-width:216px;
     height:178px;
     margin-top:132px;
 }
@@ -16,8 +16,8 @@ body,html{
     z-index:300;
 }
 .navbar-nav{
-    margin-left: 462px;
-    margin-top: -9px;
+    margin-left: 405px;
+    margin-top: 45px;
     color:white;
 }
 .navbar-nav a{
@@ -26,14 +26,22 @@ body,html{
 .active{
     color:#ffcc00!important;
 }
-/* Navbar Ends */
+.nav_5{
+    margin-left:50px;
+}
+.btn_1{
+    color:white;
+    padding:10px 5px;
+    border-radius:10px;
+}
+    /* Navbar Ends */
 /* Banner Starts */
 .head_1{
     font-size: 150px!important;
     font-weight: 600;
     padding-left: 259px;
     padding-top:-41px;
-    margin-top:-150px;
+    margin-top:-64px;
     margin-left:-14px;
     text-shadow:2px 2px #c9bfbf;;
 }
@@ -42,15 +50,18 @@ body,html{
     font-weight: 700;
     padding-left:-25px;
     padding-top: 50px;
-    margin-top:-168px;
-    margin-left:294px;
+    margin-top:-62px;
+    margin-left:329px;
+    opacity:100%;
 }
 .img_3{
-    width:918px;
+    max-width:918px;
     height:464px;
     background-color:white;
     margin-top: 0px;
-    padding-top:50px;
+    padding-top:88px;
+    padding-left: -12px;
+    margin-right:-858px;
 }
 .About_us{
     top:50px;
@@ -60,18 +71,20 @@ body,html{
 /* Car Section Starts */
 .img_45{
     left:102px;
-    top:422px;
+    top:565px;
+    max-width:1360px;
+    height:327px;
 }
 /* Car Section Ends */
 /* Car Point Section Starts */
 .head_9{
-    margin-top:292px;
+    margin-top:111px;
 }
 .point_car{
     margin-top:62px;
 }
 .img_32{
-    width:625px;
+    max-width:625px;
     height:619px;
 }
 .head_10{
@@ -89,6 +102,11 @@ body,html{
 .ban_left{
     margin-top: 50px;
 }
+.sec_5{
+    max-width:790px;
+    height:797px;
+    margin-top:-17px;
+}
 /* Car Point Section Ends */
 /* Form Section Starts */
 .rect_3{
@@ -101,48 +119,55 @@ body,html{
     top:218px;
 }
 .name_1{
-    left:248px;
-    top:201px;
-    width:268px;
+    left:364px;
+    top:257px;
+    max-width:268px;
 }
 .name_2{
-    left:-28px;
-    top:257px;
-    width:268px;
+    left:364px;
+    top:289px;
+    max-width:268px;
 }
 .name_3{
-    width:268px;
+    max-width:268px;
     height:94px;
-    left:242px;
-    top:283px;
+    left:364px;
+    top:312px;
 }
 .para_36{
-    margin-left:52px;
+    margin-left:414px;
     top:247px;
     font-size:24px;
 }
 .s_8{
     padding-left:-31px;
     top:248px;
-    left:35px;
+    left:177px;
 }
 .img_568{
     margin-left:-53px;
-    left:-122px;
+    left:-244px;
     top:389px;
+    max-width:180px;
+    height:120px;
 }
 .img_231{
-    width:691px;
+    max-width:691px;
     height:138px;
-    left:-454px;
+    left:-704px;
     top:518px;
 }
 .btn_6{
-    left:-30px;
-    top:370px;
+    left:368px;
+    top:331px;
+    color:white;
+    padding:13px 13px;
 }
 .img_67{
-    height:94px;
+    height:180px;
+    max-width:180px;
+    margin-left:105px;
+    margin-top:-103px;
 }
 /* Form Section Ends */
 /* Footer Section Starts */
