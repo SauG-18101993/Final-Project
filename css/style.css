@@ -1,5 +1,5 @@
 /* Common classes */
-body,html{
+.body,html{
     overflow-x: hidden;
 }
 .container{
@@ -10,13 +10,10 @@ body,html{
 }
 /* navbar stars */
 .img_1{
-    max-width:216px;
-    height:216px;
     margin-top:80px;
     margin-left:-42px;
 }
 .nav_ul{
-    width:100%;
     height:100px;
     top:0;
     left:0;
@@ -24,8 +21,8 @@ body,html{
     z-index:300;
 }
 .navbar-nav{
-    margin-left: 380px;
-    margin-top: -26px;
+    margin-left: 382px;
+    margin-top: 12px;
     color:white;
 }
 .navbar-nav a{
@@ -42,6 +39,7 @@ body,html{
     width:82px;
     height:36px;
     border-radius:5px;
+    margin-top:11px;
 }
 /* navbar ends */
 /* banner starts */
@@ -50,8 +48,6 @@ body,html{
     margin-left:235px;
     padding:13px 13px;
     border-radius: 5px;
-    width:181px;
-    height: 54px;
 }
 .left_ban{
     width:790px;
@@ -74,8 +70,6 @@ body,html{
 .xxn{
     left:521px;
     top:61px;
-    max-width:774px;
-    height:791px;
 }
 .x_1{
     max-width:928px;
@@ -96,14 +90,44 @@ body,html{
 }
 /* banner ends */
 /* search bar stars */
-.search_0{
-    bottom:-327px;
-    right:200px;
-    left:182px;
-    top:682px;
-}
+.search-box {
+    background: #fff;
+    padding: 30px 58px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    max-width:1122px;
+    height:155px;
+    top:-200px;
+  }
+  .form-label {
+    font-size: 20px;
+    font-family: poppins;
+    line-height: auto;
+    letter-spacing:0%;
+    font-weight:bold;
+  }
+  .form-text {
+    color: #B0B0B0;
+    font-size: 15px;
+    font-family: poppins;
+    line-height: auto;
+    letter-spacing:0%;
+  }
+  .search-btn {
+    background-color: #f4a100;
+    color:black;
+    font-weight: bold;
+    max-width:134px;
+    height:52px;
+  }
+  .search-btn:hover {
+    background-color: #d88f00;
+  }
 /* search bar ends */
 /* Faster checkout stars */
+.head_109{
+    margin-top:-94px;
+}
 :root {
     --primary-color: #FF9F1C;
     --text-color: #333;
@@ -375,35 +399,85 @@ body,html{
     margin-top:71px;
 }
 /* choose your plan starts */
-.choose_21{
-    margin-top:65px;
+.ul{
+    list-style-type: none;
 }
-.heading-12{
+.head_e{
+    font-size:45px;
+    font-weight:600;
+    line-height:auto;
+    letter-spacing:0%;
     margin-top:75px;
 }
-.choose_1_text{
-    margin-top:-58px;
-    margin-left:82px;
+.para_o{
+    font-size:14px;
+    line-height:auto;
+    letter-spacing:0%;
+    color:#8D8D8D;
+    font-family: poppins;
 }
-.choose_2_text{
-    margin-top:-47px;
-    margin-left:82px;
+.head-m{
+    font-size:24px;
+    line-height:auto;
+    letter-spacing:0%;
+    margin-top:-71px;
+    margin-left:23px;
 }
-.choose_3_text{
-    margin-top:-47px;
-    margin-left:82px;
+.para_a{
+    font-size:14px!important;
+    line-height:auto;
+    letter-spacing:0%;
+    color:#8D8D8D;
+    font-family: poppins;
+    margin-top:10px;
 }
-.heading-13{
-    margin-left:150px;
-    margin-top:-26px;
+.img_u{
+    margin-left:-61px;
+    margin-top:70px;
 }
-.para_e{
-    margin-left:151px;
-    margin-top:21px;
+.head_ei{
+    font-size:24px;
+    line-height:auto;
+    letter-spacing:0%;
+    margin-top:-66px;
+    margin-left:27px;
 }
-.img_e, .img_f, .img_g{
-    margin-left:150px;
-    margin-top:33px;
+.img_l{
+    margin-left:-41px;
+    margin-top:4px;
+}
+.para_op{
+    font-size:14px!important;
+    line-height:auto;
+    letter-spacing:0%;
+    color:#8D8D8D;
+    font-family: poppins;
+    margin-left:28px;
+}
+.img_q{
+    margin-left:-34px;
+    margin-top:53px;
+}
+.head_xa{
+    font-size:24px;
+    line-height:auto;
+    letter-spacing:0%;
+    margin-top:-66px;
+    margin-left:27px;
+}
+.para_ji{
+    font-size:14px!important;
+    line-height:auto;
+    letter-spacing:0%;
+    color:#8D8D8D;
+    font-family: poppins;
+    margin-left:28px;
+}
+.left_1{
+    margin-top:65px;
+}
+.right_1{
+    margin-top:65px;
 }
 /* choose your plan ends */
 /* Client Review Starts */
@@ -498,7 +572,7 @@ body,html{
     background: var(--card-bg);
     border-radius: 10px;
     padding: 120px 30px 30px;
-    margin-top: 76px;
+    margin-top: 66px;
     text-align: center;
     box-shadow: 0 5px 20px var(--shadow-color);
     width: 100%;
@@ -647,7 +721,7 @@ body,html{
 .cR_Rakesh{
     margin-bottom:20px;
     margin-left: -52px;
-    margin-top: 69px;
+    margin-top: -12px;
     max-width:402px;
     height:267px;
 }
@@ -717,13 +791,23 @@ body,html{
     left:255px;
     font-size:16px;
 }
-.img_568{
-    margin-left:-10px;
-    left:-288px;
-    top:255px;
-    max-width:180px;
-    height:120px;
-}
+.btn_i{
+    border-radius:10px;
+    font-size:15px;
+    font-family:'poppins';
+    margin-left:69px;
+    top:298px;
+    left:-356px;
+  }
+  .btn_g{
+    border-radius:10px;
+    font-size:15px;
+    font-family:'poppins';
+    margin-left:1px;
+    margin-top:37px;
+    top:159px;
+    left:-153px;
+  }
 .img_231{
     max-width:691px;
     height:138px;
@@ -737,6 +821,16 @@ body,html{
     border-radius:10px;
     color:white;
 }
+.spn_3{
+    font-size:25px;
+    font-family:'poppins';
+    margin-left:20px;
+  }
+.spn_4{
+    font-size:25px!important;
+    font-family:'poppins';
+    margin-left:-2px;
+  }
 /* form section ends */
 /* footer section starts */
 .footer {
@@ -773,8 +867,6 @@ body,html{
     color: #000;
 }
 .img_2{
-    max-width:308px;
-    height:313px;
     margin-top:319px;
     left:100px;
     margin-left:-30px;

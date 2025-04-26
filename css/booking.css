@@ -1,8 +1,7 @@
 /* Navbar starts */
 .img_1{
-    width:296px;
-    height:296px;
     margin-top:132px;
+    margin-left:76px;
 }
 .nav_ul{
     width:100%;
@@ -13,7 +12,7 @@
     z-index:300;
 }
 .navbar-nav{
-    margin-left: 419px;
+    margin-left: 314px;
     margin-top: 5px;
     color:white;
 }
@@ -41,6 +40,9 @@
 }
 .active{
     color:#ffcc00!important;
+}
+.btn_1{
+    margin-left:50px;
 }
     /* Navbar Ends */
 /* Banner starts */
